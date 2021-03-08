@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Addnewfood">
+
+    <EditText
+        android:id="@+id/ed1"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+       android:hint="Food Name" />
+    <EditText
+        android:id="@+id/ed2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="100dp"
+       android:hint="Price" />
+    <EditText
+        android:id="@+id/ed3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="170dp"
+        android:hint="Foodtype" />
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="211dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="240dp"
+       android:layout_marginRight="100dp"
+        android:text="ADD"
+        android:textSize="20dp"
+        android:background="@drawable/addbutton"
+        android:layout_marginLeft="100dp"/>
+
+</RelativeLayout>
